@@ -1,0 +1,57 @@
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.itemList {
+  float: left;
+}
+
+.itemA {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.itemA:hover:active {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.search {
+  float: right;
+}
+
+.button {
+  background-color: orange;
+}
+
+.divSearch {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.card {
+  width: 18rem;
+
+  margin-right: 20px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.cards {
+  padding-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}

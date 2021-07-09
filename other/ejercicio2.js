@@ -1,6 +1,6 @@
-let Observer = require("./Observer");
+let Observable = require("./Observable");
 
-class Parking extends Observer {
+class Parking extends Observable {
   constructor() {
     super();
     this.license = "";

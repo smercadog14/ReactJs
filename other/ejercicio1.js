@@ -1,6 +1,6 @@
-let Observer = require("./Observer");
+let Observable = require("./Observable");
 
-class MicroController extends Observer {
+class MicroController extends Observable {
   constructor() {
     super();
     this.name = "";
@@ -35,4 +35,4 @@ let micro1 = new microTry();
 
 microObserver.subscribe(micro1);
 
-microObserver.turnON("ultraS", 10);
+microObserver.turnOFF("ultraS", 10);

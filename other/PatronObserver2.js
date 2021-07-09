@@ -59,9 +59,11 @@ class NumberExample extends Observable{
     let numberExample = new NumberExample();
 
     let n1 = new NumberExampleSpanish();
+     let n2 = new NumberExampleEnglish();
 
     numberExample.subscribe(n1)
-        // numberExample.subscribe( new NumberExampleEnglish)
+    numberExample.subscribe(n2);
+       
 
         
         numberExample.increment();
